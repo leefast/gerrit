@@ -1,9 +1,8 @@
-1. update_board_image.py -o \<OS> -b \<board> -i \<image> -d \<dtb> -r \<rootfs>
+1. update_board_image.py -o \<OS> -b \<board> -d <seach_dir>
  
--d and -r is only required when os is Linux
+Search dir is folder to search image files
 
-Get image, dtb, rootfs from input parameters and put to defined location
-
+when os is linux and board is ...: copy file rootfs to , image to , dtb to 
  
 This command is call via ctest
   phat-san will add add_test(command) in CMake file
