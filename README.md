@@ -1,4 +1,4 @@
-1. update_board_image.py -o <OS> -b <board> -i <image> -d <dtb> -r <rootfs>
+1. update_board_image.py -o \<OS> -b \<board> -i \<image> -d \<dtb> -r \<rootfs>
  
 -d and -r is only required when os is Linux
 
